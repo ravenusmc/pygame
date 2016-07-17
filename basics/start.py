@@ -1,3 +1,6 @@
+#Everything in this file will get a basic display up on your screen. However, it will not actually
+#do anything. 
+
 #Ensure that pygame is imported to get access to it. 
 import pygame, sys
 from pygame.locals import *
