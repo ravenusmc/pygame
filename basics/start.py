@@ -13,6 +13,8 @@ def run_game():
   #Here we are setting the title to the screen that was declared on the above line. 
   pygame.display.set_caption('Hello World!')
 
+  #To change the color, of the background of the display, create a variable and set it 
+  #equal to the colors you want to use using rgb color guides. 
   bg_color = (100,30,200)
 
   #Starting the main game loop:
@@ -23,7 +25,8 @@ def run_game():
         pygame.quit()
         sys.exit()
 
-
+    #To actually change the color of the background you have to use screen.fill and send in your 
+    #variable that was set equal to some colors. 
     screen.fill(bg_color)
     #This line constantly updates the screen. 
     pygame.display.flip()
