@@ -6,6 +6,8 @@
 
 #### Basics
 
-  == This folder will show the use how to make a bsic window with pygame and then get started with it.
-  == start.py => This file contains information on how to get a basic GUI up on the screen with Pygame.
-  The file will also contain information on how how to change the background color of the gui.  
+  == This folder will show the use how to make a bsic window with pygame and then get started with it. Each file will build on the previous file. 
+
+  ##### start.py => This file contains information on how to get a basic GUI up on the screen with Pygame. The file will also contain information on how how to change the background color of the gui.  
+
+  ##### image.py =>
