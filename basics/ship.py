@@ -16,7 +16,19 @@ class Ship():
     self.screen_rect = screen.get_rect()
 
     #Start the ship at the bottom center. 
-    self.rect.centerx = self.screen_rect.centery
+    # self.rect.centerx = self.screen_rect.centery
+    # self.rect.bottom = self.screen_rect.bottom
+
+    #To have the image be at the top center use:
+    # self.rect.centerx = self.screen_rect.centery
+    # self.rect.top = self.screen_rect.top
+
+    #To have the image be in the center of the screen use:
+    # self.rect.centerx = self.screen_rect.centery
+    # self.rect.center = self.screen_rect.center
+
+    #To move image left and right, change the top line to .left or .right on BOTH sides!!!
+    self.rect.left = self.screen_rect.left
     self.rect.bottom = self.screen_rect.bottom
 
   def blitme(self):
