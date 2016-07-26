@@ -2,7 +2,7 @@
 
   Here is where we learn how to move the image that was placed on the screen. I have also broken this movement folder up into many more files. The code will start to get big at this point so I want to have it better contained. 
 
-#### MAIN.PY
+#### main.py
   This file will contain the main aspects of the game. There is nothing that special about this file except that it is the MAIN file which actually runs the game. 
 
 #### game_functions.py
