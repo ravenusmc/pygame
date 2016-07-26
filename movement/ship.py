@@ -19,6 +19,7 @@ class Ship():
     self.moving_right = False 
     self.moving_left = False
     self.moving_up = False
+    self.moving_down = False
 
   def update(self):
     #Updating ships movement 
@@ -28,6 +29,8 @@ class Ship():
       self.rect.centerx -= 7
     if self.moving_up:
       self.rect.centery -= 7
+    if self.moving_down:
+      self.rect.centery += 7
 
 
   def blitme(self):
