@@ -6,6 +6,7 @@ def check_events(ship):
   for event in pygame.event.get():
     if event.type == QUIT:
       sys.exit()
+
     #Here are the commands to move the ship. I made it so that it can move in all four 
     #directions. Review the code here, for KEYDOWN and then for KEYUP to understand 
     #What is happening.
