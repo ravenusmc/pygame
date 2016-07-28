@@ -14,3 +14,10 @@
   This file contains information on how to get a basic GUI up on the screen with Pygame. The file will also contain information on how how to change the background color of the gui.  
 
 ##### image.py 
+
+
+### Great Sites:
+
+http://www.nerdparadise.com/tech/python/pygame/
+
+

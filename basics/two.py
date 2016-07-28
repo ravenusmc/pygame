@@ -10,8 +10,13 @@ while not done:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             done = True 
+
     #This line is what will draw a rectangle to the screen. 
     pygame.draw.rect(screen, (0, 128, 255), pygame.Rect(30, 30, 60, 60))
+
+    #Drawing another square to the screen:
+    pygame.draw.rect(screen, (200, 100, 200), pygame.Rect(400, 400, 60, 60))
+
     pygame.display.flip()
 
 
